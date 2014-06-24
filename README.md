@@ -20,6 +20,8 @@ JQuery Lesson Plan
 * Linking and JQuery Library?
 * Show an example of some simple JQuery function.
 * Make a note of minification.  See if we can show the same function minified?
+* Open Source - [JQuery](https://github.com/jquery/jquery)
+* Closed Source, why it's bad and why Javascript encourages open source.
 
 ### Selectors
 
@@ -27,4 +29,5 @@ JQuery Lesson Plan
   + Performing some operation/modification to them
   + Reacting to some event (not necessarily user generated)
 * First we’ll cover the basis of selectors with the $ sign, then tools to change them
-* What is the DOM?  Show HTML and a *tree* and how the DOM directly maps to these concepts.
+* What is the DOM?  Show HTML and a *tree* and how the HTML maps to a tree structure.  Emphasize how it is a representation of the actual HTML and how it is possible to manipulate it with Code.
+* So, what is this `$` thing really?  Alias for `JQuery`, which is really a function that takes one string argument.
