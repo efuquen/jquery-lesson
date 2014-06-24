@@ -10,8 +10,8 @@ JQuery Lesson Plan
 
 ## Concepts
 
-* [Javascript Libraries](#Javascript Libraries)
-* [Selectors](#Selectors)
+* [Javascript Libraries](#javascript-libraries)
+* [Selectors](#selectors)
 
 ### Javascript Libraries
 
