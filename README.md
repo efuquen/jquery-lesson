@@ -8,7 +8,10 @@ JQuery Lesson Plan
 * $.each
 * $(“#id”).append
 
-## Questions & Concepts
+## Concepts
+
+* [Javascript Libraries](Javascript Libraries)
+* [Selectors](Selectors)
 
 ### Javascript Libraries
 
