@@ -3,15 +3,15 @@ JQuery Lesson Plan
 
 ## FlickrMap Functions Used
 
-* $(document).ready
-* $.getJSON
-* $.each
-* $(“#id”).append
+* `$(document).ready`
+* `$.getJSON`
+* `$.each`
+* `$(“#id”).append`
 
 ## Concepts
 
-* [Javascript Libraries](Javascript Libraries)
-* [Selectors](Selectors)
+* [Javascript Libraries](#Javascript Libraries)
+* [Selectors](#Selectors)
 
 ### Javascript Libraries
 
