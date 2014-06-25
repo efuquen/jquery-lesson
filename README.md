@@ -4,7 +4,7 @@ JQuery Lesson Plan
 Ideas and notes for ScriptEd Bootcamp Lesson.  First I'll list out objectives, then an outline of topics to be 
 discussed to meet those objects.  Also included are a list of JQuery functions used in FlickrMap project and exercises
 for students to practice JQuery skills. I won't necessarily cover every function listed as examples, these are just
-a pool to draw from.
+a pool to draw from to do live coding examples with the students.
 
 # Content
 
