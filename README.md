@@ -109,7 +109,11 @@ called *Procedural*.
   + `on()`, `submit()`, and `ready()`
   
 
-## Exercises
+## Exercise
+
+During the lesson we will go over a sample app that allows you to pick the winning countries in the World Cup final round of 16.  We use javascript to make an interactive bracket adding country selection and a form to dynamically change countries that are in the bracket.
+
+### Extra Exercises
 
 * Change text and background color for each country through the form.
 * Add images of country flags through the form.
