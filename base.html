@@ -4,51 +4,7 @@
     <script src="jquery-2.1.1.js"></script>
     <script>
       $(document).ready(function() {
-          
-          //Google add event handler to dynamically generated element
-          //$(".team").click(function(e) {
-          $(document).on('click', '.team', function(e) {
-              team = $(this).text();
-              parent = $(this).parent();
-              $(parent).replaceWith("<div class=\"team\">" + team + "</div>");
-              populateSelect();
-          });
-          //Difference between mouseover and hover
-          $(document).on('mouseenter', '.team', function(e) {
-            $(this).css('background-color', 'grey'); 
-            $(this).css('color', 'white'); 
-          });
-          $(document).on('mouseleave', '.team', function(e) {
-            $(this).css('background-color', 'white'); 
-            $(this).css('color', 'black'); 
-          });
-            
-          populateSelect();     
-          
-          $(document).on('change', "#change-team select", function(e){
-            team_name_selected = $('#change-team select option:selected').text();  
-            $("#team-name").val(team_name_selected);
-          });
-          
-          $(document).on('click', "#change-team button", function(e) {
-             var team_name_selected = $('#change-team select option:selected').text();
-             var new_team_name = $('#team-name').val();
-             var team_div = $('.team:contains(' + team_name_selected + ')');
-             $(team_div).text(new_team_name);
-             populateSelect();
-          })
-          
       });
-      
-      function populateSelect(){
-          $("#change-team select").empty();
-          $.each($(".team"), function(e) {
-            team_name = $(this).text();
-            $("#change-team select").append($("<option></option>").attr("value", team_name).text(team_name));
-          });
-          first_team = $("#change-team select").children().first().val();
-          $("#team-name").val(first_team);
-      }
     </script>
     <style>
         .game {
