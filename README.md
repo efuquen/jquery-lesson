@@ -111,6 +111,12 @@ called *Procedural*.
 
 ## Exercises
 
+* Change text and background color for each country through the form.
+* Add images of country flags through the form.
+* Label games, i.e. 'Round of 16', 'Quarter Finals', etc. Make sure they change correctly as different games take place.
+* When a country wins a final have a celebratory gif pop up.
+* Improve bracket design anyway you can think of.
+* Fix final country over riding form when you click on it again.
 
 ## FlickrMap 
 
